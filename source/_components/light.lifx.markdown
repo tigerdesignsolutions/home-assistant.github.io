@@ -108,3 +108,11 @@ Run an effect that does nothing, thereby stopping any other effect that might be
 | Service data attribute | Description |
 | ---------------------- | ----------- |
 | `entity_id` | String or list of strings that point at `entity_id`s of lights. Else targets all.
+
+### {% linkable_title Color Temperature 'color_temp' %}
+
+Change the temperature of your light to anwhere between a warm white to a cold white.
+
+| Service data attribute | Description|
+| ---------------------- | ---------- |
+| 'color_temp' | Change the color temperature measured in Mired from a range of 154-500.
